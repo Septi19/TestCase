@@ -1,6 +1,6 @@
 # TestCase
 
-Description:
+##Description:
 Check if  a person writes a word on the search and he can hits Enter button on keyboard.
 
 Steps to reduce:
