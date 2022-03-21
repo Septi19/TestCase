@@ -4,6 +4,8 @@ Below are some Test Case samples that I wrote while working on previous projects
 
 -----------
 
+**Test search functionality**
+
 **Description:** Check if  a person writes a word on the search and he can hits Enter button on keyboard.
 
 **Step to Reproduce:** 
@@ -16,6 +18,8 @@ Below are some Test Case samples that I wrote while working on previous projects
 **Test data:** Search:telephone & press Enter from the keyboard
 
 ----------------
+
+**Test login with correct credentials**
 
 **Description:** Check if the login works when a person uses a correct user/pass.
 
@@ -30,21 +34,23 @@ Below are some Test Case samples that I wrote while working on previous projects
 
 --------------------------------------
 
-**Description:** Check if the wishlist works
+**Description:** Check if the wishlist button works
 
 **Step to Reproduce** 
 1. Go to www.emag.ro
-2. Write a world in the seach input 
+2. Write a world in the search input 
 3. Press Enter
 4. Click at first result
 5. Click on the wishlist button
-6. Click at Favorite
+6. See if the produce is in at "Favorite"
 
 **Expect Result:** User should be able to click at "Favorite"
 
 **Test data:** Search: TV and pess Enter
 
 ---------------------------------------
+
+**Test logout functionality**
 
 **Description:** Check if the logout works
 
@@ -55,7 +61,21 @@ Below are some Test Case samples that I wrote while working on previous projects
 
 **Expect Result:** User should be able to logout 
 
-**Test data:** www.facebook.com/
+**Test data:** User:Septi & pass abc123
 
+---------------------------------------
+
+**Test login with incorrect credentials**
+
+**Description:** Check if the login don't works when a person uses a user a wrong user/pass.
+
+**Steps to reduce**
+1.Go to www.wordpress.com/log-in
+2.Write a wrong user/pass
+3.Press Login button
+
+**Expect result:** User should not be able to login and must receive a message written in red.
+
+**Test data:** User:septimiu & pass:123abc
 
 
