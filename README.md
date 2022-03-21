@@ -34,6 +34,8 @@ Below are some Test Case samples that I wrote while working on previous projects
 
 --------------------------------------
 
+**Wishlist functionality**
+
 **Description:** Check if the wishlist button works
 
 **Step to Reproduce** 
