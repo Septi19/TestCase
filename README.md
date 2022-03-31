@@ -72,9 +72,9 @@ Below are some Test Case samples that I wrote while working on previous projects
 **Description:** Check if the login don't works when a person uses a user a wrong user/pass.
 
 **Steps to reduce**
-1.Go to www.wordpress.com/log-in
-2.Write a wrong user/pass
-3.Press Login button
+1. Go to www.wordpress.com/log-in
+2. Write a wrong user/pass
+3. Press Login button
 
 **Expect result:** User should not be able to login and must receive a message written in red.
 
